@@ -6,6 +6,12 @@ An algorithm for mentor-mentee allocation that leverages cosine similarity for m
 
 The code for the algorithm also includes data cleaning steps to handle any missing values by replacing them with empty strings. This ensures that the dataset is complete and the algorithm functions correctly.
 You would find attached a pdf of the form that was sent out to the incoming Bachelor students to fill out for matching them with their mentors!
+And since the official data obviously needs to remain confidential, please find a file by the name of 'Sample-Data.xlsx' in the main branch of this repository for your reference as to how you wish to handle the data and the column labels in exactly the same way as me! Else, feel free to play around!
+
+Also Please note that you would find older yet less efficient (and possibly incomplete/not totally accurate) versions of the algorithm in the 'Develpment Phase' Branch of this repository. If you are using this repo to contribute to an open source project or anything permissible under the MIT License (see [LICENSE](https://github.com/JaiAnshSB26/Mentor-Mentee-Allocation-Algorithm/blob/main/LICENSE)), feel free to play around with the code a bit to get the best optimized version for your data, since that is exactly what I did.
+
+**NB:-** We used the same form for the mentors and the mentees, and since the majority of the mentees (the incoming promtion) didn't have access to their institutional email id s yet, and the mentors (the second year students for the academic year 2024 - 25) did, I used this as a factor to separate out the mentors from the mentees, instead of sorting them out by hand in the excel sheet (extracted from the responses collected from the form). So to do that, when some of the mentees who filled the form after recieving their institutional email id s, I assigned random domain names to their email addresses to avoid cleaning all the data to eparate out the mentors and mentees. You might need to handle a very different set of data (or an extracted spreadsheet), so you can definitely think of other ways to separate out the mentors and the mentees!
+
 ## Requirements
 - Python 3.x (any higher version!)
 - Pandas
